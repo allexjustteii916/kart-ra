@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+#search {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  width: 280px;
+  border-radius: 10px;
+  border: none;
+}
+
+#games {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  background: #1f2937;
+  padding: 1rem;
+  border-radius: 14px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
